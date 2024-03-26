@@ -21,4 +21,4 @@ async def calculate_tf_idf(filename: str) -> dict[str: dict[str: float]]:
         idf = round(log(strings_total / (sum(word in string for string in strings))), 2)
         tf_idf[word] = {"tf": tf, "idf": idf}
 
-    return tf_idf
+    return dict(sorted(tf_idf.items(), key=lambda x: x[1]["idf"], reverse=True)[:50])

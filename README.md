@@ -24,21 +24,9 @@ the end of the mouse story
 ### Response
 ```
 {
-  "the": {
-    "tf": 0.29,
-    "idf": 0
-  },
-  "house": {
-    "tf": 0.06,
-    "idf": 0.92
-  },
   "had": {
     "tf": 0.03,
     "idf": 1.61
-  },
-  "a": {
-    "tf": 0.03,
-    "idf": 0.22
   },
   "tiny": {
     "tf": 0.03,
@@ -47,14 +35,6 @@ the end of the mouse story
   "little": {
     "tf": 0.03,
     "idf": 1.61
-  },
-  "mouse": {
-    "tf": 0.16,
-    "idf": 0
-  },
-  "cat": {
-    "tf": 0.06,
-    "idf": 0.92
   },
   "saw": {
     "tf": 0.03,
@@ -91,6 +71,26 @@ the end of the mouse story
   "story": {
     "tf": 0.03,
     "idf": 1.61
+  },
+  "house": {
+    "tf": 0.06,
+    "idf": 0.92
+  },
+  "cat": {
+    "tf": 0.06,
+    "idf": 0.92
+  },
+  "a": {
+    "tf": 0.03,
+    "idf": 0.22
+  },
+  "the": {
+    "tf": 0.29,
+    "idf": 0
+  },
+  "mouse": {
+    "tf": 0.16,
+    "idf": 0
   }
 }
 ```
