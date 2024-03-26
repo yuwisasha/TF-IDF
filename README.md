@@ -12,7 +12,7 @@ poetry install
 uvicorn app.main:app --reload
 ```
 ## Example
-There is only one endpoint ```/upload```, where you can send a file via POST request, file will be saved in a project in ```BASE_DIR/text```
+There is only one endpoint ```/upload```, where you can send a file via POST request, file will be saved in a project in ```app/text```
 ### text.txt
 ```
 the house had a tiny little mouse
